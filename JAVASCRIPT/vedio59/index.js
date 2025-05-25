@@ -10,39 +10,25 @@ This fauly clculaorot dos follwoing :
 it performs wrong operations 10% of the times
 
 */
-
+let z = Math.random();
 var a = prompt("Enter 1st no.")
 var b = prompt("Enter 2nd no.")
+var c = prompt("Enter Operation");
 
-const sum = (a, b) => {
-    return a + b;
+let obj = {
+    "+": "-",
+    "*": "+",
+    "-": "/",
+    "/": "**"
 }
-const diff = (a, b) => {
-    return a - b;
-}
-const mul = (a, b) => {
-    return a * b;
-}
-const div = (a, b) => {
-    return a / b;
-}
-const exp = (a, b) => {
-    return a ** b;
-}
-let z = Math.random() < 0.1;
-if (z) {
-    console.log(diff(a, b));
-    console.log(sum(a, b));
 
-    console.log(div(a, b));
 
-    console.log(exp(a, b));
+if (z > 0.1) {
+    console.log(`The result is ${a} ${c} ${b}`)
+    alert(`The result is ${eval(`${a} ${c} ${b}`)}`);
 
 } else {
-    console.log(sum(a, b));
-    console.log(diff(a, b));
-
-    console.log(mul(a, b));
-
-    console.log(div(a, b));
+    c = obj[c];
+    console.log(`The result is ${a} ${c} ${b}`)
+    alert(`The result is ${eval(`${a} ${c} ${b}`)}`);
 }
