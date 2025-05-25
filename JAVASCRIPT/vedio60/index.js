@@ -36,3 +36,4 @@ console.log(b.concat(a, "Agrawal", "PAri", "New"
 let f = "  PArth   "
 console.log(f.trim()) //removes whitespaces 
 
+
