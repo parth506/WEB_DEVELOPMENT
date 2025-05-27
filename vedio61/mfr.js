@@ -36,3 +36,4 @@ console.log(arr2.reduce(red));
 
 //array banana
 Array.from("PArth Agrawal")
+
