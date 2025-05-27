@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <script>
+        let a = 6;
+        let prod = 1;
+        for (let i = 1; i <= 6; ++i) {
+            if (a == 0) {
+                prod *= 1;
+                break;
+            }
+            prod *= a;
+            --a;
+        }
+        console.log(prod);
+    </script> -->
+
+
+    <!--VERY IMPORTANT CONCEPT-->
+    <script>
+        let a = 6
+        function fact(number) {
+            let arr = Array.from(Array(number + 1).keys())
+            console.log(arr.slice(1,))
+            let c = arr.slice(1,).reduce((a, b) => {
+                return a * b
+            })
+            return c;
+            console.log(c);
+        }
+        fact(a)
+    </script>
+</body>
+
+</html>
