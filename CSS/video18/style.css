@@ -1,0 +1,24 @@
+/* CSS Box model */
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    color: blue;
+    background-color: rgb(215, 16, 16);
+}
+.box1{
+    color: black;
+    background-color:yellow;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid blueviolet;
+    margin:25px;
+    box-sizing: border-box;
+    height: 200px;
+}.box2{
+    
+    text-transform: uppercase;margin: 25px;
+    padding: 10px;
+    margin: 30px;
+}
