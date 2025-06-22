@@ -2,4 +2,6 @@
     height: 34px;
     width: 34px;
     border: 2px double rgb(25, 97, 157);
+    margin: 5px;
+    padding: 5px;
 }
