@@ -1,0 +1,50 @@
+div{
+    /* background-color: aqua;
+    color: red; */
+}
+.red{
+    background-color: aqua;
+    color: red;
+}
+
+/* Child Selectors */
+/* They have to be direct child of the div i. the p one  */
+div > p {
+    text-align: center;
+    text-transform: uppercase;
+    border-color:4px dotted brown;
+    color: blue;
+    background-color: aqua;
+}
+/* Descendent selector  */
+div p{
+
+}
+/* Univeral selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Pseudo selector */
+a:visited{
+    color:yellow;
+
+}
+a:hover{
+    color: red;
+}
+a:link{
+    color: green;
+}
+a:active{
+    color:blueviolet
+}
+
+p:first-child{
+    color: blue;
+}
+p:first-letter{
+    color: red;
+}
